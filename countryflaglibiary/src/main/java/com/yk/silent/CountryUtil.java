@@ -24,7 +24,7 @@ public class CountryUtil {
         }
     }
 
-    public static void getCountryFlag(String countryCode, Context context, AppCompatImageView mImgCountry) {
+    public static void getCountryFlag( Context context, String countryCode,AppCompatImageView mImgCountry) {
         if (!TextUtils.isEmpty(countryCode)) {
             int flag = context.getResources().getIdentifier("flag_" + countryCode.toLowerCase(),
                     "drawable",
