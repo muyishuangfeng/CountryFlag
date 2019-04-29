@@ -23,6 +23,16 @@
      |mImgFlag|AppcompatImageView|是|imageview控件|
      
      2、调用方式（两个参数的）
-     CountryUtil.getCountry(,mImgFlag);
-         
-
+     
+     CountryUtil.getCountry(context,mImgFlag);
+ 
+     
+     |参数|类型|是否必须|说明|
+     |:------:|:------:|:-----:|:------|
+     |context| Context|是|上下文|
+     |countryCode|String|是|国家码（或者国家缩写）|
+     |mImgFlag|AppcompatImageView|是|imageview控件|
+     
+     2、调用方式（两个参数的）
+     
+     CountryUtil.getCountry(context,country,mImgFlag);
