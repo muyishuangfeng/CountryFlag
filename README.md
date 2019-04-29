@@ -13,4 +13,16 @@
 
          implementation 'com.github.muyishuangfeng:CountryFlag:0.0.1'
          
+         
+   + 3、使用方式
+     1、参数说明
+     
+     |参数|类型|是否必须|说明|
+     |:------:|:------:|:-----:|:------|
+     |context| Context|是|上下文|
+     |mImgFlag|AppcompatImageView|是|imageview控件|
+     
+     2、调用方式（两个参数的）
+     CountryUtil.getCountry(,mImgFlag);
+         
 
