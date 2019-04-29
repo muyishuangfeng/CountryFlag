@@ -11,7 +11,7 @@
 
   + 2、在所使用的moule的 app.build中添加项目引用
 
-         implementation 'com.github.muyishuangfeng:CountryFlag:0.0.1'
+         implementation 'com.github.muyishuangfeng:CountryFlag:1.0.1'
          
          
    + 3、使用方式
